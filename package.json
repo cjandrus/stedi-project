@@ -60,12 +60,13 @@
     "@babel/core": "~7.9.0"
   },
   "scripts": {
-    "test": "jest",
+    "test": "mocha",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject"
   },
-  "private": true
+  "private": true,
+  "type": "module"
 }
